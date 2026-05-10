@@ -1,0 +1,66 @@
+name: Fetch Twitter And Forward
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  run-fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PDM
+        uses: pdm-project/setup-pdm@v4
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pdm install
+
+      - name: Prepare env file
+        run: |
+          cat > .env <<EOF
+          TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID=${{ secrets.TELEGRAM_CHANNEL_ID }}
+          TWITTER_AUTH_TOKEN=${{ secrets.TWITTER_AUTH_TOKEN }}
+          TWITTER_CT0=${{ secrets.TWITTER_CT0 }}
+          EOF
+
+      - name: Run fetch script
+        run: pdm run python fetch.py
+
+      - name: Commit updated state
+        run: |
+          rm -f .env
+          git add forwarded.json
+          if git diff --staged --quiet; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+
+          LAST_AUTHOR=$(git log -1 --pretty=format:'%an <%ae>' || true)
+          LAST_MSG=$(git log -1 --pretty=format:'%s' || true)
+
+          if [ "$LAST_AUTHOR" = "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" ] && [ "$LAST_MSG" = "chore(actions): update forwarded state" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit --amend -m "chore(actions): update forwarded state"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore(actions): update forwarded state"
+          fi
+
+          git push

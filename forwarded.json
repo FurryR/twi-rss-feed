@@ -1,0 +1,1912 @@
+{
+  "records": [
+    {
+      "tweet_id": "2052975268546162936",
+      "source_user": "im_furryr",
+      "author_handle": "afdawfq",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-09T04:53:41+00:00"
+    },
+    {
+      "tweet_id": "2001119913252151468",
+      "source_user": "im_furryr",
+      "author_handle": "nnknwnn",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-12-17T02:39:00+00:00"
+    },
+    {
+      "tweet_id": "2052782827775860869",
+      "source_user": "im_furryr",
+      "author_handle": "9zdfqpnldrs67ag",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-08T16:08:59+00:00"
+    },
+    {
+      "tweet_id": "2052755719477457185",
+      "source_user": "im_furryr",
+      "author_handle": "luoluokun517",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-08T14:21:16+00:00"
+    },
+    {
+      "tweet_id": "1976697293710803289",
+      "source_user": "im_furryr",
+      "author_handle": "makeborkad",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-10-10T17:12:14+00:00"
+    },
+    {
+      "tweet_id": "2052597828233601310",
+      "source_user": "im_furryr",
+      "author_handle": "robo_tyan",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-08T03:53:52+00:00"
+    },
+    {
+      "tweet_id": "2052723469134303233",
+      "source_user": "im_furryr",
+      "author_handle": "mao_xian45237",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-08T12:13:07+00:00"
+    },
+    {
+      "tweet_id": "2052693517299024098",
+      "source_user": "im_furryr",
+      "author_handle": "toastking0210",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-08T10:14:06+00:00"
+    },
+    {
+      "tweet_id": "2052723735283532278",
+      "source_user": "im_furryr",
+      "author_handle": "bwpup07",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-08T12:14:10+00:00"
+    },
+    {
+      "tweet_id": "2052023676028297282",
+      "source_user": "im_furryr",
+      "author_handle": "deadbeatincubus",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T13:52:23+00:00"
+    },
+    {
+      "tweet_id": "2018245427917943295",
+      "source_user": "im_furryr",
+      "author_handle": "kiyo3014",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-02-02T08:49:41+00:00"
+    },
+    {
+      "tweet_id": "2052629877359358421",
+      "source_user": "im_furryr",
+      "author_handle": "hmee_hmi",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-08T06:01:13+00:00"
+    },
+    {
+      "tweet_id": "2052546913082236995",
+      "source_user": "im_furryr",
+      "author_handle": "vaquitomorado",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-08T00:31:33+00:00"
+    },
+    {
+      "tweet_id": "2052420769544868258",
+      "source_user": "im_furryr",
+      "author_handle": "9zdfqpnldrs67ag",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-07T16:10:18+00:00"
+    },
+    {
+      "tweet_id": "2052424427334238324",
+      "source_user": "im_furryr",
+      "author_handle": "skyewolf_",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-07T16:24:50+00:00"
+    },
+    {
+      "tweet_id": "2039108001219350986",
+      "source_user": "im_furryr",
+      "author_handle": "s1eeziis",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-03-31T22:30:06+00:00"
+    },
+    {
+      "tweet_id": "1999174286771159437",
+      "source_user": "im_furryr",
+      "author_handle": "dekopaws",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-12-11T17:47:47+00:00"
+    },
+    {
+      "tweet_id": "1970995343425929508",
+      "source_user": "im_furryr",
+      "author_handle": "rk_wox",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-09-24T23:34:43+00:00"
+    },
+    {
+      "tweet_id": "2052143372589207665",
+      "source_user": "im_furryr",
+      "author_handle": "beagleyang",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T21:48:01+00:00"
+    },
+    {
+      "tweet_id": "1916837523927482689",
+      "source_user": "im_furryr",
+      "author_handle": "morskart",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-04-28T12:50:53+00:00"
+    },
+    {
+      "tweet_id": "1825432625214799889",
+      "source_user": "im_furryr",
+      "author_handle": "rekin3dfurry",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2024-08-19T07:20:27+00:00"
+    },
+    {
+      "tweet_id": "2041169840506019875",
+      "source_user": "im_furryr",
+      "author_handle": "dragontes1",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-06T15:03:07+00:00"
+    },
+    {
+      "tweet_id": "2052320893880447257",
+      "source_user": "im_furryr",
+      "author_handle": "hklmilkybot",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-07T09:33:26+00:00"
+    },
+    {
+      "tweet_id": "2042684842861531425",
+      "source_user": "im_furryr",
+      "author_handle": "radcanine",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T19:23:12+00:00"
+    },
+    {
+      "tweet_id": "1948803817874882984",
+      "source_user": "im_furryr",
+      "author_handle": "_pepsi_man",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-07-25T17:53:31+00:00"
+    },
+    {
+      "tweet_id": "2033376956532572489",
+      "source_user": "im_furryr",
+      "author_handle": "radcanine",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-03-16T02:56:59+00:00"
+    },
+    {
+      "tweet_id": "2052330896989254135",
+      "source_user": "im_furryr",
+      "author_handle": "nullrein019",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-07T10:13:10+00:00"
+    },
+    {
+      "tweet_id": "2052045172490563585",
+      "source_user": "im_furryr",
+      "author_handle": "snowkiltu",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T15:17:48+00:00"
+    },
+    {
+      "tweet_id": "2036516583833588075",
+      "source_user": "im_furryr",
+      "author_handle": "radcanine",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-03-24T18:52:44+00:00"
+    },
+    {
+      "tweet_id": "2052081834867986799",
+      "source_user": "im_furryr",
+      "author_handle": "mowinkthewolf",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T17:43:29+00:00"
+    },
+    {
+      "tweet_id": "2052296484830454047",
+      "source_user": "im_furryr",
+      "author_handle": "zunzunhu",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-07T07:56:26+00:00"
+    },
+    {
+      "tweet_id": "2018372235770429771",
+      "source_user": "im_furryr",
+      "author_handle": "motto_0620",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-02-02T17:13:35+00:00"
+    },
+    {
+      "tweet_id": "2052010390297641467",
+      "source_user": "im_furryr",
+      "author_handle": "jiugongge808",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T12:59:36+00:00"
+    },
+    {
+      "tweet_id": "2052031632585220232",
+      "source_user": "im_furryr",
+      "author_handle": "djt_aka",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T14:24:00+00:00"
+    },
+    {
+      "tweet_id": "2031913321910112566",
+      "source_user": "im_furryr",
+      "author_handle": "radcanine",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-03-12T02:01:01+00:00"
+    },
+    {
+      "tweet_id": "2052075710567899354",
+      "source_user": "im_furryr",
+      "author_handle": "wry2229513683",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T17:19:09+00:00"
+    },
+    {
+      "tweet_id": "2022333223037243429",
+      "source_user": "im_furryr",
+      "author_handle": "xitinchy162805",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-02-13T15:33:08+00:00"
+    },
+    {
+      "tweet_id": "2037428932387946862",
+      "source_user": "im_furryr",
+      "author_handle": "radcanine",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-03-27T07:18:05+00:00"
+    },
+    {
+      "tweet_id": "2045614201117511999",
+      "source_user": "im_furryr",
+      "author_handle": "yzmuya",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-18T21:23:25+00:00"
+    },
+    {
+      "tweet_id": "2048248161114706289",
+      "source_user": "im_furryr",
+      "author_handle": "radcanine",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-26T03:49:50+00:00"
+    },
+    {
+      "tweet_id": "2052120019560231168",
+      "source_user": "im_furryr",
+      "author_handle": "tongling560",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T20:15:13+00:00"
+    },
+    {
+      "tweet_id": "2052077378453831696",
+      "source_user": "im_furryr",
+      "author_handle": "ioenami88",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T17:25:47+00:00"
+    },
+    {
+      "tweet_id": "2052045703820488744",
+      "source_user": "im_furryr",
+      "author_handle": "munaxod",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T15:19:55+00:00"
+    },
+    {
+      "tweet_id": "2004796656467017848",
+      "source_user": "im_furryr",
+      "author_handle": "meocondainhan",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-12-27T06:09:04+00:00"
+    },
+    {
+      "tweet_id": "2051868700920472019",
+      "source_user": "im_furryr",
+      "author_handle": "jt41obcuewvhjtu",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T03:36:34+00:00"
+    },
+    {
+      "tweet_id": "1626740030692802561",
+      "source_user": "im_furryr",
+      "author_handle": "chocola87578043",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2023-02-18T00:27:01+00:00"
+    },
+    {
+      "tweet_id": "2051484086611353917",
+      "source_user": "im_furryr",
+      "author_handle": "lover021boy",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-05T02:08:15+00:00"
+    },
+    {
+      "tweet_id": "2045067383661011236",
+      "source_user": "im_furryr",
+      "author_handle": "ninefifteen19",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-17T09:10:34+00:00"
+    },
+    {
+      "tweet_id": "2051631067757756483",
+      "source_user": "im_furryr",
+      "author_handle": "ironmation",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-05T11:52:18+00:00"
+    },
+    {
+      "tweet_id": "2051681531257909668",
+      "source_user": "im_furryr",
+      "author_handle": "sfw_nata",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-05T15:12:50+00:00"
+    },
+    {
+      "tweet_id": "2051758363298386237",
+      "source_user": "im_furryr",
+      "author_handle": "fanged_lover",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-05T20:18:08+00:00"
+    },
+    {
+      "tweet_id": "2052035555719094330",
+      "source_user": "im_furryr",
+      "author_handle": "artificialrex",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T14:39:36+00:00"
+    },
+    {
+      "tweet_id": "1937928944545894862",
+      "source_user": "im_furryr",
+      "author_handle": "meocondainhan",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-06-25T17:40:40+00:00"
+    },
+    {
+      "tweet_id": "1969037986177089851",
+      "source_user": "im_furryr",
+      "author_handle": "han3verde3n",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-09-19T13:56:53+00:00"
+    },
+    {
+      "tweet_id": "1976640384588824853",
+      "source_user": "im_furryr",
+      "author_handle": "rabbity_art",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-10-10T13:26:06+00:00"
+    },
+    {
+      "tweet_id": "2046164838448267542",
+      "source_user": "im_furryr",
+      "author_handle": "wuyaasha233",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-20T09:51:28+00:00"
+    },
+    {
+      "tweet_id": "2045763173450657920",
+      "source_user": "im_furryr",
+      "author_handle": "peapeafur",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-19T07:15:23+00:00"
+    },
+    {
+      "tweet_id": "1975544227477311788",
+      "source_user": "im_furryr",
+      "author_handle": "rabbity_art",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-10-07T12:50:22+00:00"
+    },
+    {
+      "tweet_id": "1971556365773791356",
+      "source_user": "im_furryr",
+      "author_handle": "ggan_ggandi",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-09-26T12:44:02+00:00"
+    },
+    {
+      "tweet_id": "2051489046736814561",
+      "source_user": "im_furryr",
+      "author_handle": "neumokun",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-05T02:27:58+00:00"
+    },
+    {
+      "tweet_id": "2051162163704901725",
+      "source_user": "im_furryr",
+      "author_handle": "wumi_zong",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-04T04:49:03+00:00"
+    },
+    {
+      "tweet_id": "1864241219611889914",
+      "source_user": "im_furryr",
+      "author_handle": "ailizhi233",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2024-12-04T09:31:57+00:00"
+    },
+    {
+      "tweet_id": "1977638750957240399",
+      "source_user": "im_furryr",
+      "author_handle": "sadmishutkas",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-10-13T07:33:15+00:00"
+    },
+    {
+      "tweet_id": "2051080315456664053",
+      "source_user": "im_furryr",
+      "author_handle": "_n7legion",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-03T23:23:49+00:00"
+    },
+    {
+      "tweet_id": "2049083304679539060",
+      "source_user": "im_furryr",
+      "author_handle": "xingwu2331",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-28T11:08:24+00:00"
+    },
+    {
+      "tweet_id": "2050734154309161432",
+      "source_user": "im_furryr",
+      "author_handle": "spotterzeke",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-03T00:28:17+00:00"
+    },
+    {
+      "tweet_id": "2051005821581251023",
+      "source_user": "im_furryr",
+      "author_handle": "10ttent",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-03T18:27:48+00:00"
+    },
+    {
+      "tweet_id": "2011514390252855680",
+      "source_user": "im_furryr",
+      "author_handle": "razzpery",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-01-14T19:02:57+00:00"
+    },
+    {
+      "tweet_id": "2051074533994516533",
+      "source_user": "im_furryr",
+      "author_handle": "teamkraiton",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-03T23:00:50+00:00"
+    },
+    {
+      "tweet_id": "2050902322910527633",
+      "source_user": "im_furryr",
+      "author_handle": "leon_cheetah",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-03T11:36:32+00:00"
+    },
+    {
+      "tweet_id": "2050979071207801215",
+      "source_user": "im_furryr",
+      "author_handle": "dendryte_axxon",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-03T16:41:30+00:00"
+    },
+    {
+      "tweet_id": "2050727039116955848",
+      "source_user": "im_furryr",
+      "author_handle": "teryxcad",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-03T00:00:01+00:00"
+    },
+    {
+      "tweet_id": "2050908278650224779",
+      "source_user": "im_furryr",
+      "author_handle": "lily864367",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-03T12:00:12+00:00"
+    },
+    {
+      "tweet_id": "2049773068558721429",
+      "source_user": "im_furryr",
+      "author_handle": "dlgr312",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-30T08:49:17+00:00"
+    },
+    {
+      "tweet_id": "2050176432215560332",
+      "source_user": "im_furryr",
+      "author_handle": "mouldirou",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-01T11:32:06+00:00"
+    },
+    {
+      "tweet_id": "2050606400691478650",
+      "source_user": "im_furryr",
+      "author_handle": "marbook2002",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-02T16:00:39+00:00"
+    },
+    {
+      "tweet_id": "2050922762911592739",
+      "source_user": "im_furryr",
+      "author_handle": "arun_six",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-03T12:57:45+00:00"
+    },
+    {
+      "tweet_id": "2050677411914608698",
+      "source_user": "im_furryr",
+      "author_handle": "_kamfur",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-02T20:42:49+00:00"
+    },
+    {
+      "tweet_id": "2050576548080877953",
+      "source_user": "im_furryr",
+      "author_handle": "sponsor_bliz",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-02T14:02:01+00:00"
+    },
+    {
+      "tweet_id": "2050539416272392466",
+      "source_user": "im_furryr",
+      "author_handle": "diffoslomanl",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-02T11:34:28+00:00"
+    },
+    {
+      "tweet_id": "2050644316079431906",
+      "source_user": "im_furryr",
+      "author_handle": "magicyohei",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-02T18:31:18+00:00"
+    },
+    {
+      "tweet_id": "2043625190236864649",
+      "source_user": "im_furryr",
+      "author_handle": "sadmishutkas",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-13T09:39:48+00:00"
+    },
+    {
+      "tweet_id": "2050531502375715078",
+      "source_user": "im_furryr",
+      "author_handle": "luke_c419",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-02T11:03:01+00:00"
+    },
+    {
+      "tweet_id": "2050491219093201310",
+      "source_user": "im_furryr",
+      "author_handle": "hanmankit",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-02T08:22:57+00:00"
+    },
+    {
+      "tweet_id": "2049882787537367172",
+      "source_user": "im_furryr",
+      "author_handle": "haru_octolobus",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-30T16:05:16+00:00"
+    },
+    {
+      "tweet_id": "2050363928220455371",
+      "source_user": "im_furryr",
+      "author_handle": "kuulongarl",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-01T23:57:09+00:00"
+    },
+    {
+      "tweet_id": "2050356535675834411",
+      "source_user": "im_furryr",
+      "author_handle": "milang_313",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-01T23:27:46+00:00"
+    },
+    {
+      "tweet_id": "2050406309019938835",
+      "source_user": "im_furryr",
+      "author_handle": "dadayan_nayadad",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-02T02:45:33+00:00"
+    },
+    {
+      "tweet_id": "2050164824492183998",
+      "source_user": "im_furryr",
+      "author_handle": "hobzhng14522",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-01T10:45:59+00:00"
+    },
+    {
+      "tweet_id": "2050452046961418441",
+      "source_user": "im_furryr",
+      "author_handle": "ggjggjggj88",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-02T05:47:18+00:00"
+    },
+    {
+      "tweet_id": "2050061487012721099",
+      "source_user": "im_furryr",
+      "author_handle": "wuyaasha233",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-01T03:55:21+00:00"
+    },
+    {
+      "tweet_id": "2050050687635968117",
+      "source_user": "im_furryr",
+      "author_handle": "sir_arion",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-01T03:12:26+00:00"
+    },
+    {
+      "tweet_id": "2049885033314546087",
+      "source_user": "im_furryr",
+      "author_handle": "9zdfqpnldrs67ag",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-30T16:14:11+00:00"
+    },
+    {
+      "tweet_id": "2049906822426018166",
+      "source_user": "im_furryr",
+      "author_handle": "chen0for",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-30T17:40:46+00:00"
+    },
+    {
+      "tweet_id": "2049671176314872241",
+      "source_user": "im_furryr",
+      "author_handle": "rabbity_art",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-30T02:04:24+00:00"
+    },
+    {
+      "tweet_id": "2048619026465927455",
+      "source_user": "im_furryr",
+      "author_handle": "douyattemo",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-27T04:23:32+00:00"
+    },
+    {
+      "tweet_id": "2048221741122805807",
+      "source_user": "im_furryr",
+      "author_handle": "rabbity_art",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-26T02:04:51+00:00"
+    },
+    {
+      "tweet_id": "2047724458111369367",
+      "source_user": "im_furryr",
+      "author_handle": "zbyyyyy175140",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-24T17:08:50+00:00"
+    },
+    {
+      "tweet_id": "2048370845165457841",
+      "source_user": "im_furryr",
+      "author_handle": "qyzhq0306",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-26T11:57:21+00:00"
+    },
+    {
+      "tweet_id": "2047922281482174951",
+      "source_user": "im_furryr",
+      "author_handle": "chen0for",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-25T06:14:55+00:00"
+    },
+    {
+      "tweet_id": "1886260192205046241",
+      "source_user": "im_furryr",
+      "author_handle": "xen96662711",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-02-03T03:47:29+00:00"
+    },
+    {
+      "tweet_id": "2047598063485919511",
+      "source_user": "im_furryr",
+      "author_handle": "cyanusowo",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-24T08:46:35+00:00"
+    },
+    {
+      "tweet_id": "2046786472167256118",
+      "source_user": "im_furryr",
+      "author_handle": "hklmilkybot",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-22T03:01:37+00:00"
+    },
+    {
+      "tweet_id": "2046737644378526103",
+      "source_user": "im_furryr",
+      "author_handle": "art_uza",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-21T23:47:35+00:00"
+    },
+    {
+      "tweet_id": "2046644433467363699",
+      "source_user": "im_furryr",
+      "author_handle": "qiushan_jiaoyan",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-21T17:37:12+00:00"
+    },
+    {
+      "tweet_id": "2046204833640984915",
+      "source_user": "im_furryr",
+      "author_handle": "kourney14",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-20T12:30:23+00:00"
+    },
+    {
+      "tweet_id": "1769335523938828523",
+      "source_user": "im_furryr",
+      "author_handle": "gabugabu1126",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2024-03-17T12:10:36+00:00"
+    },
+    {
+      "tweet_id": "2046168764107157719",
+      "source_user": "im_furryr",
+      "author_handle": "takikaze217",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-20T10:07:03+00:00"
+    },
+    {
+      "tweet_id": "2046296078560211414",
+      "source_user": "im_furryr",
+      "author_handle": "radcanine",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-20T18:32:58+00:00"
+    },
+    {
+      "tweet_id": "2045854336648151137",
+      "source_user": "im_furryr",
+      "author_handle": "reck_monster",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-19T13:17:38+00:00"
+    },
+    {
+      "tweet_id": "2045865856668971343",
+      "source_user": "im_furryr",
+      "author_handle": "wang47645876",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-19T14:03:25+00:00"
+    },
+    {
+      "tweet_id": "2045821480953663539",
+      "source_user": "im_furryr",
+      "author_handle": "lamort_d",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-19T11:07:05+00:00"
+    },
+    {
+      "tweet_id": "2045766987863687626",
+      "source_user": "im_furryr",
+      "author_handle": "bwpup07",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-19T07:30:33+00:00"
+    },
+    {
+      "tweet_id": "2009351539790631279",
+      "source_user": "im_furryr",
+      "author_handle": "gimpalchil1",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-01-08T19:48:33+00:00"
+    },
+    {
+      "tweet_id": "2002404238207676518",
+      "source_user": "im_furryr",
+      "author_handle": "gimpalchil1",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-12-20T15:42:27+00:00"
+    },
+    {
+      "tweet_id": "2044748358682833066",
+      "source_user": "im_furryr",
+      "author_handle": "kei_enn_",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-16T12:02:52+00:00"
+    },
+    {
+      "tweet_id": "2044818590776619378",
+      "source_user": "im_furryr",
+      "author_handle": "w7vof7",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-16T16:41:57+00:00"
+    },
+    {
+      "tweet_id": "2044566844733096357",
+      "source_user": "im_furryr",
+      "author_handle": "wang_yzzx",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-16T00:01:36+00:00"
+    },
+    {
+      "tweet_id": "2044514048784408648",
+      "source_user": "im_furryr",
+      "author_handle": "soildweller",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-15T20:31:49+00:00"
+    },
+    {
+      "tweet_id": "2044227115386564805",
+      "source_user": "im_furryr",
+      "author_handle": "rengetsu_klau",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-15T01:31:38+00:00"
+    },
+    {
+      "tweet_id": "2044002604179698134",
+      "source_user": "im_furryr",
+      "author_handle": "omenbuttcheeks",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-14T10:39:31+00:00"
+    },
+    {
+      "tweet_id": "2044100106652397995",
+      "source_user": "im_furryr",
+      "author_handle": "qianlie111",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-14T17:06:57+00:00"
+    },
+    {
+      "tweet_id": "2044064075681010007",
+      "source_user": "im_furryr",
+      "author_handle": "bigyellow0079",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-14T14:43:47+00:00"
+    },
+    {
+      "tweet_id": "2044087952800977048",
+      "source_user": "im_furryr",
+      "author_handle": "wubaikongx",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-14T16:18:39+00:00"
+    },
+    {
+      "tweet_id": "2044170958467150159",
+      "source_user": "im_furryr",
+      "author_handle": "tian_qi_qing",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-14T21:48:30+00:00"
+    },
+    {
+      "tweet_id": "2043720868443168953",
+      "source_user": "im_furryr",
+      "author_handle": "lunarlegacyva",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-13T16:00:00+00:00"
+    },
+    {
+      "tweet_id": "2043600113336201499",
+      "source_user": "im_furryr",
+      "author_handle": "inufuto114514",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-13T08:00:09+00:00"
+    },
+    {
+      "tweet_id": "2043735812282470464",
+      "source_user": "im_furryr",
+      "author_handle": "chunieart",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-13T16:59:23+00:00"
+    },
+    {
+      "tweet_id": "2043676926007788005",
+      "source_user": "im_furryr",
+      "author_handle": "wufwufboii",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-13T13:05:23+00:00"
+    },
+    {
+      "tweet_id": "2043282993662292181",
+      "source_user": "im_furryr",
+      "author_handle": "miazuma_shouki",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-12T11:00:02+00:00"
+    },
+    {
+      "tweet_id": "2043582226508710310",
+      "source_user": "im_furryr",
+      "author_handle": "coconutmalinois",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-13T06:49:05+00:00"
+    },
+    {
+      "tweet_id": "2043688454769525074",
+      "source_user": "im_furryr",
+      "author_handle": "matchykiwaii",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-13T13:51:12+00:00"
+    },
+    {
+      "tweet_id": "2043290533339287640",
+      "source_user": "im_furryr",
+      "author_handle": "ninaashi",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-12T11:30:00+00:00"
+    },
+    {
+      "tweet_id": "2043447815096197338",
+      "source_user": "im_furryr",
+      "author_handle": "sbl_hck",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-12T21:54:59+00:00"
+    },
+    {
+      "tweet_id": "2043340124155695161",
+      "source_user": "im_furryr",
+      "author_handle": "weet_01",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-12T14:47:03+00:00"
+    },
+    {
+      "tweet_id": "2043587232884510768",
+      "source_user": "im_furryr",
+      "author_handle": "ehgver",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-13T07:08:58+00:00"
+    },
+    {
+      "tweet_id": "2003245837321949241",
+      "source_user": "im_furryr",
+      "author_handle": "zcdartz",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-12-22T23:26:40+00:00"
+    },
+    {
+      "tweet_id": "2042875851717685713",
+      "source_user": "im_furryr",
+      "author_handle": "possummicko",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-11T08:02:12+00:00"
+    },
+    {
+      "tweet_id": "2042935315325948078",
+      "source_user": "im_furryr",
+      "author_handle": "sollyzsundyz",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-11T11:58:29+00:00"
+    },
+    {
+      "tweet_id": "2042109342237819216",
+      "source_user": "im_furryr",
+      "author_handle": "nefarious_foxx",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-09T05:16:22+00:00"
+    },
+    {
+      "tweet_id": "2041684898562634029",
+      "source_user": "im_furryr",
+      "author_handle": "chester_xc",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-08T01:09:47+00:00"
+    },
+    {
+      "tweet_id": "2042989481192755656",
+      "source_user": "im_furryr",
+      "author_handle": "oddgoat333",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-11T15:33:43+00:00"
+    },
+    {
+      "tweet_id": "1851277359032455491",
+      "source_user": "im_furryr",
+      "author_handle": "kiyo3014",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2024-10-29T14:58:12+00:00"
+    },
+    {
+      "tweet_id": "1606680046831570944",
+      "source_user": "im_furryr",
+      "author_handle": "kiyo3014",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2022-12-24T15:55:48+00:00"
+    },
+    {
+      "tweet_id": "1777064362144055617",
+      "source_user": "im_furryr",
+      "author_handle": "kiyo3014",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2024-04-07T20:02:14+00:00"
+    },
+    {
+      "tweet_id": "2042941260441489911",
+      "source_user": "im_furryr",
+      "author_handle": "octo_poosi",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-11T12:22:07+00:00"
+    },
+    {
+      "tweet_id": "2042917536975720755",
+      "source_user": "im_furryr",
+      "author_handle": "st99672289",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-11T10:47:51+00:00"
+    },
+    {
+      "tweet_id": "2042915208302342604",
+      "source_user": "im_furryr",
+      "author_handle": "biggraydoggydog",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-11T10:38:35+00:00"
+    },
+    {
+      "tweet_id": "2042856349361672400",
+      "source_user": "im_furryr",
+      "author_handle": "awaldkize",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-11T06:44:42+00:00"
+    },
+    {
+      "tweet_id": "2042794504764440808",
+      "source_user": "im_furryr",
+      "author_handle": "kacelaris",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-11T02:38:57+00:00"
+    },
+    {
+      "tweet_id": "2021982638001860689",
+      "source_user": "im_furryr",
+      "author_handle": "kento267",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-02-12T16:20:02+00:00"
+    },
+    {
+      "tweet_id": "2042613964362711355",
+      "source_user": "im_furryr",
+      "author_handle": "toxic_dudex",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T14:41:33+00:00"
+    },
+    {
+      "tweet_id": "1942841326820864235",
+      "source_user": "im_furryr",
+      "author_handle": "sadmishutkas",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-07-09T07:00:43+00:00"
+    },
+    {
+      "tweet_id": "2042787466558738607",
+      "source_user": "im_furryr",
+      "author_handle": "octore4",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-11T02:10:59+00:00"
+    },
+    {
+      "tweet_id": "1779496255145808093",
+      "source_user": "im_furryr",
+      "author_handle": "tupidwithouts",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2024-04-14T13:05:43+00:00"
+    },
+    {
+      "tweet_id": "2042619089219428673",
+      "source_user": "im_furryr",
+      "author_handle": "gorigori__3",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T15:01:55+00:00"
+    },
+    {
+      "tweet_id": "2042694179474579746",
+      "source_user": "im_furryr",
+      "author_handle": "oldshep168",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T20:00:18+00:00"
+    },
+    {
+      "tweet_id": "2042415293222600963",
+      "source_user": "im_furryr",
+      "author_handle": "foooooxes",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T01:32:06+00:00"
+    },
+    {
+      "tweet_id": "2041863360094912645",
+      "source_user": "im_furryr",
+      "author_handle": "daytonyeen_va",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-08T12:58:55+00:00"
+    },
+    {
+      "tweet_id": "2042572997379395993",
+      "source_user": "im_furryr",
+      "author_handle": "kemorau",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T11:58:46+00:00"
+    },
+    {
+      "tweet_id": "2042622034849730640",
+      "source_user": "im_furryr",
+      "author_handle": "osiantig",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T15:13:37+00:00"
+    },
+    {
+      "tweet_id": "2042572551935705166",
+      "source_user": "im_furryr",
+      "author_handle": "studio_hatake",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T11:57:00+00:00"
+    },
+    {
+      "tweet_id": "2042612021607436551",
+      "source_user": "im_furryr",
+      "author_handle": "satogakunsfw",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T14:33:50+00:00"
+    },
+    {
+      "tweet_id": "2041958586998227266",
+      "source_user": "im_furryr",
+      "author_handle": "sipcyshepherd",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-08T19:17:19+00:00"
+    },
+    {
+      "tweet_id": "2042610769481863635",
+      "source_user": "im_furryr",
+      "author_handle": "wuyaasha233",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T14:28:51+00:00"
+    },
+    {
+      "tweet_id": "2021541476929503583",
+      "source_user": "im_furryr",
+      "author_handle": "artificialrex",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-02-11T11:07:01+00:00"
+    },
+    {
+      "tweet_id": "1303358434658512896",
+      "source_user": "im_furryr",
+      "author_handle": "atn471",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2020-09-08T15:44:00+00:00"
+    },
+    {
+      "tweet_id": "1837866305241993702",
+      "source_user": "im_furryr",
+      "author_handle": "reolixious",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2024-09-22T14:47:27+00:00"
+    },
+    {
+      "tweet_id": "2042462348288676139",
+      "source_user": "im_furryr",
+      "author_handle": "liuganglogan",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T04:39:05+00:00"
+    },
+    {
+      "tweet_id": "2042311248600318453",
+      "source_user": "im_furryr",
+      "author_handle": "luxury_gin",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-09T18:38:40+00:00"
+    },
+    {
+      "tweet_id": "2042534146174783760",
+      "source_user": "im_furryr",
+      "author_handle": "arun_six",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-10T09:24:23+00:00"
+    },
+    {
+      "tweet_id": "2014127504450056201",
+      "source_user": "im_furryr",
+      "author_handle": "bakemonoy",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-01-22T00:06:32+00:00"
+    },
+    {
+      "tweet_id": "2041913216574370061",
+      "source_user": "im_furryr",
+      "author_handle": "antio_xxt",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-08T16:17:02+00:00"
+    },
+    {
+      "tweet_id": "2042270259982528822",
+      "source_user": "im_furryr",
+      "author_handle": "diffoslomanl",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-09T15:55:48+00:00"
+    },
+    {
+      "tweet_id": "2029265939880132983",
+      "source_user": "im_furryr",
+      "author_handle": "anmei_ftnn",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-03-04T18:41:16+00:00"
+    },
+    {
+      "tweet_id": "2042029065667014976",
+      "source_user": "im_furryr",
+      "author_handle": "o_eu_o",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-08T23:57:22+00:00"
+    },
+    {
+      "tweet_id": "2041878728712790226",
+      "source_user": "im_furryr",
+      "author_handle": "dendryte_axxon",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-08T13:59:59+00:00"
+    },
+    {
+      "tweet_id": "2042066393613377605",
+      "source_user": "im_furryr",
+      "author_handle": "oldshep168",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-09T02:25:42+00:00"
+    },
+    {
+      "tweet_id": "2042163232656466278",
+      "source_user": "im_furryr",
+      "author_handle": "lagoon_xvi",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-04-09T08:50:30+00:00"
+    },
+    {
+      "tweet_id": "1971292718451351714",
+      "source_user": "im_furryr",
+      "author_handle": "bakemonoy",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2025-09-25T19:16:23+00:00"
+    },
+    {
+      "tweet_id": "2011921339725021346",
+      "source_user": "im_furryr",
+      "author_handle": "blupanda115",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-01-15T22:00:01+00:00"
+    },
+    {
+      "tweet_id": "2053217654240879072",
+      "source_user": "im_furryr",
+      "author_handle": "cheetowo",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-09T20:56:50+00:00"
+    },
+    {
+      "tweet_id": "2007485676053508502",
+      "source_user": "im_furryr",
+      "author_handle": "ross_ciaco",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-01-03T16:14:17+00:00"
+    },
+    {
+      "tweet_id": "2052640360187531477",
+      "source_user": "im_furryr",
+      "author_handle": "xihqingtian",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-08T06:42:52+00:00"
+    },
+    {
+      "tweet_id": "2052026296495198676",
+      "source_user": "im_furryr",
+      "author_handle": "ata0l",
+      "reposter_handle": "im_furryr",
+      "is_retweet": true,
+      "has_media": true,
+      "created_at": "2026-05-06T14:02:48+00:00"
+    },
+    {
+      "tweet_id": "2053066232191181151",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-05-09T10:55:08+00:00"
+    },
+    {
+      "tweet_id": "2052676541197484159",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-05-08T09:06:38+00:00"
+    },
+    {
+      "tweet_id": "2052265379939164395",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-05-07T05:52:50+00:00"
+    },
+    {
+      "tweet_id": "2051609316575297562",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-05-05T10:25:52+00:00"
+    },
+    {
+      "tweet_id": "2051387460354220254",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-05-04T19:44:18+00:00"
+    },
+    {
+      "tweet_id": "2050987222644760878",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-05-03T17:13:54+00:00"
+    },
+    {
+      "tweet_id": "2050649100882940039",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-05-02T18:50:19+00:00"
+    },
+    {
+      "tweet_id": "2050043077071634942",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-05-01T02:42:12+00:00"
+    },
+    {
+      "tweet_id": "2049822331904938131",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-30T12:05:02+00:00"
+    },
+    {
+      "tweet_id": "2049548020811973098",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-29T17:55:01+00:00"
+    },
+    {
+      "tweet_id": "2049130073161355682",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-28T14:14:15+00:00"
+    },
+    {
+      "tweet_id": "2049044732266070129",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-28T08:35:08+00:00"
+    },
+    {
+      "tweet_id": "2046924457978257613",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-22T12:09:55+00:00"
+    },
+    {
+      "tweet_id": "2046551536848039977",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-21T11:28:04+00:00"
+    },
+    {
+      "tweet_id": "2045449078964973663",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-18T10:27:17+00:00"
+    },
+    {
+      "tweet_id": "2045403838606410095",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-18T07:27:31+00:00"
+    },
+    {
+      "tweet_id": "2045034326497390782",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-17T06:59:12+00:00"
+    },
+    {
+      "tweet_id": "2045001853298164053",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-17T04:50:10+00:00"
+    },
+    {
+      "tweet_id": "2044946784905252940",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-17T01:11:21+00:00"
+    },
+    {
+      "tweet_id": "2044821218336067705",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-16T16:52:24+00:00"
+    },
+    {
+      "tweet_id": "2044764821204418920",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-16T13:08:17+00:00"
+    },
+    {
+      "tweet_id": "2044729740096139529",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-16T10:48:53+00:00"
+    },
+    {
+      "tweet_id": "2044404580646359469",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-15T13:16:49+00:00"
+    },
+    {
+      "tweet_id": "2044338846255751509",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-15T08:55:37+00:00"
+    },
+    {
+      "tweet_id": "2043978582985507079",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-14T09:04:04+00:00"
+    },
+    {
+      "tweet_id": "2043630342490489324",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-13T10:00:17+00:00"
+    },
+    {
+      "tweet_id": "2043020180058685596",
+      "source_user": "xiongyue79",
+      "author_handle": "xiongyue79",
+      "reposter_handle": "none",
+      "is_retweet": false,
+      "has_media": true,
+      "created_at": "2026-04-11T17:35:43+00:00"
+    }
+  ]
+}
