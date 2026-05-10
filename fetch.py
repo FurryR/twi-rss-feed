@@ -9,7 +9,6 @@ from typing import Any
 
 import aiohttp
 
-
 BASE_DIR = Path(__file__).resolve().parent
 USERS_FILE = BASE_DIR / "users.json"
 BLACKLIST_FILE = BASE_DIR / "blacklist.json"
@@ -19,12 +18,15 @@ TG_MAX_RETRIES = 5
 
 
 class TelegramAPIError(RuntimeError):
-    def __init__(self, method: str, status: int, raw: str, description: str = "") -> None:
+    def __init__(
+        self, method: str, status: int, raw: str, description: str = ""
+    ) -> None:
         super().__init__(f"Telegram {method} failed ({status}): {raw}")
         self.method = method
         self.status = status
         self.raw = raw
         self.description = description
+
 
 POLICY_ALL = "retweets_and_media"
 POLICY_MEDIA_ONLY = "media_only"
@@ -105,7 +107,9 @@ def parse_blacklist(raw: Any) -> set[str]:
     return result
 
 
-async def fetch_user_posts(screen_name: str, max_count: int | None) -> list[dict[str, Any]]:
+async def fetch_user_posts(
+    screen_name: str, max_count: int | None
+) -> list[dict[str, Any]]:
     cmd = ["pdm", "run", "twitter", "user-posts", screen_name, "--json"]
     if max_count is not None:
         cmd.extend(["--max", str(max_count)])
@@ -165,17 +169,19 @@ def build_caption(tweet: dict[str, Any]) -> str:
 
     escaped_text = html.escape(text)
     if author_name:
-        author_link = f"<a href=\"https://x.com/{author_name}\">@{author_name}</a>"
+        author_link = f'<a href="https://x.com/{author_name}">@{author_name}</a>'
         lines = [f"{escaped_text} by {author_link}"]
     else:
         lines = [escaped_text]
     if bool(tweet.get("isRetweet")) and reposter:
-        reposter_link = f"<a href=\"https://x.com/{reposter}\">@{reposter}</a>"
+        reposter_link = f'<a href="https://x.com/{reposter}">@{reposter}</a>'
         lines.append(f"(由 {reposter_link} 转发)")
     return "\n".join(line for line in lines if line)
 
 
-async def tg_call(session: aiohttp.ClientSession, token: str, method: str, payload: dict[str, Any]) -> dict[str, Any]:
+async def tg_call(
+    session: aiohttp.ClientSession, token: str, method: str, payload: dict[str, Any]
+) -> dict[str, Any]:
     url = f"https://api.telegram.org/bot{token}/{method}"
     for attempt in range(1, TG_MAX_RETRIES + 1):
         async with session.post(url, json=payload) as resp:
@@ -195,9 +201,15 @@ async def tg_call(session: aiohttp.ClientSession, token: str, method: str, paylo
                 if isinstance(params, dict):
                     retry_after = params.get("retry_after")
 
-            if resp.status == 429 and retry_after is not None and attempt < TG_MAX_RETRIES:
+            if (
+                resp.status == 429
+                and retry_after is not None
+                and attempt < TG_MAX_RETRIES
+            ):
                 wait_s = int(retry_after)
-                print(f"[限流] Telegram {method} 命中 429，{wait_s}s 后重试 (attempt {attempt}/{TG_MAX_RETRIES})")
+                print(
+                    f"[限流] Telegram {method} 命中 429，{wait_s}s 后重试 (attempt {attempt}/{TG_MAX_RETRIES})"
+                )
                 await asyncio.sleep(wait_s)
                 continue
 
@@ -210,19 +222,30 @@ async def tg_call(session: aiohttp.ClientSession, token: str, method: str, paylo
                 and attempt < TG_MAX_RETRIES
             ):
                 wait_s = min(2 * attempt, 10)
-                print(f"[重试] Telegram {method} 拉取媒体失败，{wait_s}s 后重试 (attempt {attempt}/{TG_MAX_RETRIES})")
+                print(
+                    f"[重试] Telegram {method} 拉取媒体失败，{wait_s}s 后重试 (attempt {attempt}/{TG_MAX_RETRIES})"
+                )
                 await asyncio.sleep(wait_s)
                 continue
 
             if resp.status >= 500 and attempt < TG_MAX_RETRIES:
-                wait_s = min(2 ** attempt, 30)
-                print(f"[重试] Telegram {method} 服务异常({resp.status})，{wait_s}s 后重试")
+                wait_s = min(2**attempt, 30)
+                print(
+                    f"[重试] Telegram {method} 服务异常({resp.status})，{wait_s}s 后重试"
+                )
                 await asyncio.sleep(wait_s)
                 continue
 
-            raise TelegramAPIError(method=method, status=resp.status, raw=raw, description=description)
+            raise TelegramAPIError(
+                method=method, status=resp.status, raw=raw, description=description
+            )
 
-    raise TelegramAPIError(method=method, status=599, raw="failed after retries", description="failed after retries")
+    raise TelegramAPIError(
+        method=method,
+        status=599,
+        raw="failed after retries",
+        description="failed after retries",
+    )
 
 
 async def send_tweet_to_telegram(
@@ -233,7 +256,9 @@ async def send_tweet_to_telegram(
 ) -> None:
     caption = build_caption(tweet)
     media = tweet.get("media") or []
-    valid_media = [m for m in media if isinstance(m, dict) and str(m.get("url", "")).strip()]
+    valid_media = [
+        m for m in media if isinstance(m, dict) and str(m.get("url", "")).strip()
+    ]
 
     if valid_media:
         if len(valid_media) == 1:
@@ -254,8 +279,12 @@ async def send_tweet_to_telegram(
                         },
                     )
                 except TelegramAPIError as exc:
-                    if exc.status == 400 and "wrong type of the web page content" in exc.description:
-                        fallback_text = f"{caption}\n\n[video url] {html.escape(media_url)}"
+                    if (
+                        exc.status == 400
+                        and "wrong type of the web page content" in exc.description
+                    ):
+                        video_link = f'<a href="{html.escape(media_url)}">视频链接</a>'
+                        fallback_text = f"{caption}\n\n{video_link}"
                         await tg_call(
                             session,
                             token,
@@ -326,7 +355,9 @@ def clip_state(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return records[-MAX_STATE_SIZE:]
 
 
-def prune_records_by_blacklist(records: list[dict[str, Any]], blacklist: set[str]) -> tuple[list[dict[str, Any]], int]:
+def prune_records_by_blacklist(
+    records: list[dict[str, Any]], blacklist: set[str]
+) -> tuple[list[dict[str, Any]], int]:
     if not blacklist:
         return records, 0
 
@@ -344,7 +375,9 @@ def prune_records_by_blacklist(records: list[dict[str, Any]], blacklist: set[str
     return kept, removed
 
 
-def persist_state(records: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], set[str]]:
+def persist_state(
+    records: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], set[str]]:
     clipped = clip_state(records)
     save_json_file(STATE_FILE, {"records": clipped})
     ids = {
@@ -420,7 +453,9 @@ async def main() -> None:
     sent_count = 0
     failed_count = 0
 
-    async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=60)) as session:
+    async with aiohttp.ClientSession(
+        timeout=aiohttp.ClientTimeout(total=60)
+    ) as session:
         for user in users:
             user_start = time.perf_counter()
             username = user["username"]
@@ -433,7 +468,9 @@ async def main() -> None:
             tweets = await fetch_user_posts(username, limit)
             fetch_elapsed = time.perf_counter() - fetch_start
             fetched_count += len(tweets)
-            print(f"[抓取] @{username} 获取到 {len(tweets)} 条, 用时 {fetch_elapsed:.2f}s")
+            print(
+                f"[抓取] @{username} 获取到 {len(tweets)} 条, 用时 {fetch_elapsed:.2f}s"
+            )
 
             for tweet in tweets:
                 tweet_id = str(tweet.get("id", "")).strip()
@@ -460,8 +497,12 @@ async def main() -> None:
                     {
                         "tweet_id": tweet_id,
                         "source_user": username,
-                        "author_handle": norm_handle(str((tweet.get("author") or {}).get("screenName", ""))),
-                        "reposter_handle": norm_handle(str(tweet.get("retweetedBy", ""))),
+                        "author_handle": norm_handle(
+                            str((tweet.get("author") or {}).get("screenName", ""))
+                        ),
+                        "reposter_handle": norm_handle(
+                            str(tweet.get("retweetedBy", ""))
+                        ),
                         "is_retweet": bool(tweet.get("isRetweet")),
                         "has_media": has_media(tweet),
                         "created_at": str(tweet.get("createdAtISO", "")),
