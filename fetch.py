@@ -17,6 +17,15 @@ STATE_FILE = BASE_DIR / "forwarded.json"
 MAX_STATE_SIZE = 2000
 TG_MAX_RETRIES = 5
 
+
+class TelegramAPIError(RuntimeError):
+    def __init__(self, method: str, status: int, raw: str, description: str = "") -> None:
+        super().__init__(f"Telegram {method} failed ({status}): {raw}")
+        self.method = method
+        self.status = status
+        self.raw = raw
+        self.description = description
+
 POLICY_ALL = "retweets_and_media"
 POLICY_MEDIA_ONLY = "media_only"
 POLICY_RETWEET_MEDIA_ONLY = "retweet_media_only"
@@ -211,9 +220,9 @@ async def tg_call(session: aiohttp.ClientSession, token: str, method: str, paylo
                 await asyncio.sleep(wait_s)
                 continue
 
-            raise RuntimeError(f"Telegram {method} failed ({resp.status}): {raw}")
+            raise TelegramAPIError(method=method, status=resp.status, raw=raw, description=description)
 
-    raise RuntimeError(f"Telegram {method} failed after retries")
+    raise TelegramAPIError(method=method, status=599, raw="failed after retries", description="failed after retries")
 
 
 async def send_tweet_to_telegram(
@@ -232,17 +241,34 @@ async def send_tweet_to_telegram(
             m_type = str(m.get("type", "")).lower()
             media_url = str(m.get("url", "")).strip()
             if m_type == "video":
-                await tg_call(
-                    session,
-                    token,
-                    "sendVideo",
-                    {
-                        "chat_id": chat_id,
-                        "video": media_url,
-                        "caption": caption,
-                        "parse_mode": "HTML",
-                    },
-                )
+                try:
+                    await tg_call(
+                        session,
+                        token,
+                        "sendVideo",
+                        {
+                            "chat_id": chat_id,
+                            "video": media_url,
+                            "caption": caption,
+                            "parse_mode": "HTML",
+                        },
+                    )
+                except TelegramAPIError as exc:
+                    if exc.status == 400 and "wrong type of the web page content" in exc.description:
+                        fallback_text = f"{caption}\n\n[video url] {html.escape(media_url)}"
+                        await tg_call(
+                            session,
+                            token,
+                            "sendMessage",
+                            {
+                                "chat_id": chat_id,
+                                "text": fallback_text,
+                                "disable_web_page_preview": False,
+                                "parse_mode": "HTML",
+                            },
+                        )
+                    else:
+                        raise
             else:
                 await tg_call(
                     session,
@@ -392,6 +418,7 @@ async def main() -> None:
     fetched_count = 0
     selected_count = 0
     sent_count = 0
+    failed_count = 0
 
     async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=60)) as session:
         for user in users:
@@ -420,8 +447,13 @@ async def main() -> None:
                     continue
 
                 selected_count += 1
-                await send_tweet_to_telegram(session, tg_token, tg_channel, tweet)
-                print(f"[发送] tweet_id={tweet_id} 已发送")
+                try:
+                    await send_tweet_to_telegram(session, tg_token, tg_channel, tweet)
+                    print(f"[发送] tweet_id={tweet_id} 已发送")
+                except Exception as exc:
+                    failed_count += 1
+                    print(f"[错误] tweet_id={tweet_id} 发送失败，已跳过: {exc}")
+                    continue
 
                 seen_ids.add(tweet_id)
                 state_records.append(
@@ -454,6 +486,7 @@ async def main() -> None:
                 "fetched": fetched_count,
                 "selected": selected_count,
                 "sent": sent_count,
+                "failed": failed_count,
                 "state_size": len(state_records),
             },
             ensure_ascii=False,
